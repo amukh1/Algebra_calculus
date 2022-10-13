@@ -4,21 +4,23 @@
 
 For example: ax^2 + bx + c = 0
 
+> **Warning**
+> THE PARSE FUNCTION REQUIRES IT TO BE IN ax^2 + bx + c = 0 FORM
 
-
-### WARNING: PARSE CAN ONLY TAKE QUADRATICS IN ax^2 + bx + c = 0 FORM
-
-### WARNING: THE QUADRATIC FUNCTION NEEDS TO BE FED AN A, B, AND C VALUE FOR IT TO WORK.
-
-```diff
- - red text
- ```
+> **Warning**
+> THE QUADRATIC FUNCTION NEEDS TO BE FED AN A, B, AND C VALUE FOR IT TO WORK.
 
 ### Functions: 
 
 ## quadratic(a, b, c) --> returns two polynomial answers that can be zero.
 
+> **Note**
+> quadratic(a, b, c) --> returns two polynomial answers that can be zero.
+
 ## parse('ax^2 + bx + c') --> returns an array with a, b, and c which can be directly passed into the ^quadratic function.
+
+> **Note**
+> parse('ax^2 + bx + c') --> returns an array with a, b, and c which can be directly passed into the ^quadratic function.
 
 # Example:
 
