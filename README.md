@@ -10,7 +10,8 @@ For example: ax^2 + bx + c = 0
 
 ### WARNING: THE QUADRATIC FUNCTION NEEDS TO BE FED AN A, B, AND C VALUE FOR IT TO WORK.
 
-### ```diff - red text ```
+### ```diff
+ - red text ```
 
 ### Functions: 
 
