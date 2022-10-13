@@ -24,3 +24,18 @@ function quadratic(a, b, c) {
     let quaz = `(x ${factors[0][0]}) == 0 || (x ${factors[0][1]}) == 0`
     return quaz
 }
+
+function parse(equ) {
+    let exp = equ.split("=")[0]
+    return [(exp.split("x")[0] == '' ? 1 : exp.split("x")[0].split(" ").join("")) - 0, (exp.split("x")[1].slice(2).split(" ").join("")) - 0, (exp.split("x")[2].split(" ").join("")) - 0]
+}
+
+// example x^2 - 7x + 12 = 0
+
+let equation = parse('x^2 - 7x + 12 = 0')
+
+let answer = quadratic(equation[0], equation[1], equation[2])
+
+console.log(answer)
+
+
