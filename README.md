@@ -4,6 +4,10 @@
 
 For example: ax^2 + bx + c = 0
 
+## WARNING: PARSE CAN ONLY TAKE QUADRATICS IN ax^2 + bx + c = 0 FORM
+
+## WARNING: THE QUADRATIC FUNCTION NEEDS TO BE FED AN A, B, AND C VALUE FOR IT TO WORK.
+
 ### Functions: 
 
 ## quadratic(a, b, c) --> returns two polynomial answers that can be zero.
