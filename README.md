@@ -5,11 +5,9 @@
 For example: ax^2 + bx + c = 0
 
 > **Warning**
-
 > THE PARSE FUNCTION REQUIRES IT TO BE IN ax^2 + bx + c = 0 FORM
 
 > **Warning**
-
 > THE QUADRATIC FUNCTION NEEDS TO BE FED AN A, B, AND C VALUE FOR IT TO WORK.
 
 ### Functions: 
@@ -17,14 +15,12 @@ For example: ax^2 + bx + c = 0
 ## quadratic(a, b, c) --> returns two polynomial answers that can be zero.
 
 > **Note**
-
-> quadratic(a, b, c) --> returns two polynomial answers that can be zero.
+> returns two polynomial answers that can be zero.
 
 ## parse('ax^2 + bx + c') --> returns an array with a, b, and c which can be directly passed into the ^quadratic function.
 
 > **Note**
-
-> parse('ax^2 + bx + c') --> returns an array with a, b, and c which can be directly passed into the ^quadratic function.
+> returns an array with a, b, and c which can be directly passed into the ^quadratic function.
 
 # Example:
 
