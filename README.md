@@ -21,5 +21,7 @@ let [a, b, c] = parse(eq)
 
 let ans = quadratic(a, b, c)
 
-console(ans)
+console(ans) // (x - 3) == 0 || (x - 4) == 0
+
+// looking at the source is a great way to learn quadratics
 ```
