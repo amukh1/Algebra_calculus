@@ -18,7 +18,7 @@ if(c % i == 0) {
   }else if(-i+r == b) {
     # add negative i and r to the list of factors (of c) (that also add up to b)
     factors.push(["- {i}", "+ {r}"])
-  } ... # !!! IMPORTANT: THIS MEANS WE KEEP CHECKING FOR EACH TYPE! (i+r), (-i+r), (i-r), (-i-r)!!
+  } ... # !!! IMPORTANT: THIS MEANS WE KEEP CHECKING FOR EACH TYPE! (i+r), (-i+r), (i-r), (-i-r)!! # (2 more iterations 4 total)
 }
       
 i = i + 1
