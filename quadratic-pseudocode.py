@@ -30,9 +30,9 @@ i = i + 1
 
 }
 
-first_factored_pair = factors[1] # [a,b]
+first_factors = factors[1] # [a,b]
 
-# first_factored_pair[1] == a
-# first_factored_pair[2] == b
-answer = `(x { first_factored_pair[1] })(x { first_factored_pair[2] })`
+# first_factors[1] == a
+# first_factors[2] == b
+answer = `(x { first_factors[1] })(x { first_factors[2] })`
 ## answer = `(x {factors[1][1]})(x {factors[1][2]})` is also valid
