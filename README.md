@@ -22,7 +22,7 @@ For example: ax^2 + bx + c = 0
 > **Note**
 > returns an array with a, b, and c which can be directly passed into the ^quadratic function.
 
-![image](https://user-images.githubusercontent.com/85003861/195961775-237a1246-d680-4607-ba99-7a7c0f9b89bd.png)
+![image](https://user-images.githubusercontent.com/85003861/195961814-59555690-fa56-4325-b02a-a708d9ed916a.png)
 
 # Example:
 
