@@ -1,7 +1,4 @@
-function quadratic(a1, b1, c1) {
-    let a = a1/a1
-    let b = b1/a1
-    let c = c1/a1
+function quadratic(a, b, c) {
     let factors = []
     for(let i = (c - (Math.abs(c))); i <= Math.abs(c*2); i++) {
 // console.log(i) // << COMMENT 
