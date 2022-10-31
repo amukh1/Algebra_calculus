@@ -13,9 +13,6 @@ vectorComponent({magnitude, theta})
 
 function parametricVectorLine(v) {
     let slope = [v[1], v[0]]
-    return {text: `{[1,0] + t[${v.toString()}] | t∈R}`, slope, LaTeX: `\{ {\hat{\textbf{\i}}} + t \begin{bmatrix} ${v[0]}
-\\ 
-${v[1]}
-\end{bmatrix}  | t \in \mathbb{R}\}
+    return {text: `{[1,0] + t[${v.toString()}] | t∈R}`, slope, LaTeX: `\{ {\hat{\textbf{\i}}} + t \begin{bmatrix} ${v[0]}\n \\ \n ${v[1]} \end{bmatrix}  | t \in \mathbb{R}\}
 `, altLaTeX: `\{ {\hat{\textbf{\i}}} + t  \vec{v} | t \in \mathbb{R}\}`}
 }
