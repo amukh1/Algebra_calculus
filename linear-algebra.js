@@ -17,4 +17,8 @@ function parametricVectorLine(v) {
 `, altLaTeX: `\\{ {\\hat{\\textbf{\\i}}} + t  \\vec{v} | t \\in \\mathbb{R}\\}`, equation: 'y=' + slope + 'x'}
 }
 
+function parametricVectorPoint(v,mag) {
+    return (v*mag) + [1,0]
+}
+
 // parametricVectorLine([x,y]) // {text: {'[1,0] + t[x,y] | t∈R', [y,x], LateX: 'Latex code', altLaTeX: 'alternate Latex code', equation: 'y=mx'}
