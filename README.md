@@ -1,6 +1,7 @@
 # Algebra (In js)
 
 ## Quadratics
+https://web.stanford.edu/~surag/posts/alphazero.html
 
 For example: ax^2 + bx + c = 0
 
