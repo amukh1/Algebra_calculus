@@ -1,5 +1,5 @@
-function differentiate(dx, f, x) {
-  return (f(x + dx) - f(x))/dx
+function differentiate(h, f, x) {
+  return (f(x + h) - f(x))/h
 }
 
 function partial(fn, rsp){
